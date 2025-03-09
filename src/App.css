@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+header {
+  background-color: pink;
+}
+footer {
+  background-color: orange;
+}
+
+.modoEscuro {
+  background-color: purple;
+  height: 100vh;
+  width: 100vh;
+}
+.modoClaro {
+  background-color: pink;
+  height: 100vh;
+  width: 100vh;
+}
