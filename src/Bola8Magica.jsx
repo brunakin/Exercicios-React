@@ -5,15 +5,17 @@ export function Bola8() {
   const [resposta, setResposta] = useState("");
 
   return (
-    <div>
-      <button
-        onClick={() =>
-          setResposta(respostas[Math.floor(Math.random() * respostas.length)])
-        }
-      >
-        Pergunte à Bola 8
-      </button>
-      {resposta && <p>{resposta}</p>}
-    </div>
+    <>
+      <div>
+        <button
+          onClick={() =>
+            setResposta(respostas[Math.floor(Math.random() * respostas.length)])
+          }
+        >
+          Pergunte à Bola 8
+        </button>
+        {resposta && <p>{resposta}</p>}
+      </div>
+    </>
   );
 }

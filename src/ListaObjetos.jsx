@@ -8,12 +8,14 @@ export function ArrayObjetos() {
   ];
 
   return (
-    <ul>
-      {pessoas.map((pessoa) => (
-        <li key={index}>
-          {pessoa.nome} - {pessoa.idade} - {pessoa.genero}
-        </li>
-      ))}
-    </ul>
+    <>
+      <ul>
+        {pessoas.map((pessoa) => (
+          <li key={index}>
+            {pessoa.nome} - {pessoa.idade} - {pessoa.genero}
+          </li>
+        ))}
+      </ul>
+    </>
   );
 }

@@ -14,10 +14,12 @@ export function Contador() {
   };
 
   return (
-    <div>
-      <h1>Contagem: {cont}</h1>
-      <button onClick={incrementar}>Incrementar</button>
-      <button onClick={decrementar}>Decrementar</button>
-    </div>
+    <>
+      <div>
+        <h1>Contagem: {cont}</h1>
+        <button onClick={incrementar}>Incrementar</button>
+        <button onClick={decrementar}>Decrementar</button>
+      </div>
+    </>
   );
 }
