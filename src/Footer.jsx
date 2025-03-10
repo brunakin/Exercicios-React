@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 
 export function Footer(props) {
-  const data = new Date();
+  const data = new Date().toLocaleDateString();
   return (
     <>
       <footer className="footer">

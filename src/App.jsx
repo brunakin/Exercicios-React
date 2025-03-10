@@ -21,6 +21,7 @@ function App() {
 
   return (
     <>
+      <h1>Teste</h1>;
       <div className="Exercicio1">
         <Header
           titulo="Header Exercício 1"
@@ -28,35 +29,28 @@ function App() {
         />
         <Footer texto="Texto recebido por props. Footer Exercício 1" />
       </div>
-
       <div className="Exercicio2">
         <Botao cor="pink" texto="Botão Rosa" />
         <Botao cor="blue" texto="Botão Azul" />
         <Botao cor="green" texto="Botão Verde" />
       </div>
-
       <div className="Exercicio3e4">
         <ArraySimples />
         <ArrayObjetos />
       </div>
-
       <div className={modoEscuro ? "modoEscuro" : "modoClaro"}>
         <button onClick={trocarTema}>Alterar Tema</button>
       </div>
-
       <div className="Exercicio6">
-        <button onClick={() => setShow(!mostrar)}>Mostrar ou Ocultar</button>
-        <Content mostrar={mostrar} />
+        <button onClick={() => setValor(!mostrar)}>Mostrar ou Ocultar</button>
+        <ConteudoBotao mostrar={mostrar} />
       </div>
-
       <div className="Exercicio7">
         <Contador />
       </div>
-
       <div className="Exercicio8">
         <Bola8 />
       </div>
-
       <div className="Exercicio9">
         <Calculadora />
       </div>
